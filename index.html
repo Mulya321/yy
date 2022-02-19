@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmkBumiPutra</title>
+    <link rel="stylesheet" href="new/latihan.css">
+</head>
+<style type='text/css'>
+    /* Efek Bola Salju */
+    .snowball{position:fixed;top:0;left:0;right:0;pointer-events:none;z-index:20}
+    .snowsand{height:100%;position:relative;overflow:hidden;z-index:1}
+    </style>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="pp">SMK BUMI PUTRA</h1>
+            <ul>
+                <ol><a href="#">Home</a></ol>
+                <ol><a href="#">Email</a></ol>
+                <ol><a href="#">Contack</a></ol>
+                <ol><a href="#">login</a></ol>
+                <ol><a href="#">Notifikasion</a></ol>
+
+            </ul>
+            <div class="hero"></div>
+
+            <div class="content">
+                <h1 class="py">BEST OF SCHOOL IN PAMIJAHAN</h1>
+                <p>penulis <a href="#" class="ehe">Mulyadi</a></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptas, consequuntur minima
+                    molestiae doloremque eos ea earum, commodi itaque necessitatibus nemo voluptatibus atque quibusdam,
+                    voluptatum magnam neque iste et hic?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa eaque neque, delectus, numquam a vero
+                    eos quod corrupti quos ullam omnis esse exercitationem quam consequuntur sapiente, dolorem enim
+                    necessitatibus beatae nobis dolor? Vitae ipsam nesciunt quod inventore, debitis ea accusamus
+                    excepturi commodi dolores mollitia provident. Aspernatur maxime, omnis natus facilis saepe delectus
+                    aliquam iste harum quibusdam ullam reprehenderit in est aut consectetur, sequi ut numquam pariatur
+                    repudiandae inventore. Odit impedit molestiae quos fugit a aliquid nostrum repellat aperiam incidunt
+                    sed aspernatur deserunt enim veritatis, molestias consequatur illum doloribus autem rem ullam quae,
+                    consequuntur animi quam. Nemo voluptas necessitatibus accusantium ipsa?</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae nemo voluptatum eum voluptates
+                    accusamus dicta magnam magni eligendi perferendis, debitis, adipisci mollitia! Quisquam debitis,
+                    nostrum id veniam repellat repellendus pariatur expedita. Hic quas deleniti, amet corporis quis
+                    dolores id cum. Repellat, illo rerum perferendis libero neque, optio nulla natus architecto ea rem
+                    temporibus. Aliquid quas ratione odio, qui in voluptate fugit voluptatem repellat asperiores quo
+                    quod similique velit excepturi officia sapiente, quae rerum commodi a perferendis nulla numquam?
+                    Debitis, quidem? Repudiandae at, id dolore fuga laborum ratione numquam repellat porro, inventore
+                    qui sapiente cupiditate tempore aperiam! Molestias delectus veniam nihil consectetur fugiat rerum
+                    debitis accusantium nam unde illum, magni excepturi ducimus facere aliquam reiciendis, provident
+                    officia sint vitae quisquam, maiores sequi dignissimos fugit? Dolore ipsum sit iste consequuntur
+                    mollitia praesentium omnis harum obcaecati quibusdam cum porro quis rem expedita eligendi nostrum
+                    iusto dicta, maxime ducimus illum autem velit adipisci. Voluptatem delectus nihil a facere iure
+                    voluptates id dolore earum facilis, doloribus qui. Exercitationem, molestiae et quaerat, quam
+                    pariatur id minima ratione odio dolorum ab aliquam voluptatem maxime? Quos voluptatem soluta quae
+                    sunt alias velit. Consectetur labore at vel quod dolor nemo cupiditate! Modi atque rerum soluta
+                    commodi? Velit, corporis ut!</p>
+
+
+            </div>
+        </div>
+        <div class="footer">
+            <p class="op">copyright 2022</p>
+        </div>
+    </div>
+
+    </div>
+    </div>
+
+
+
+
+
+</body>
+<div class='snowsand'>
+    <canvas class='snowball' id='snowball'></canvas>
+    </div>
+    <script type='text/javascript'>
+    //<![CDATA[
+    !function(){function t(t){var n=t.getContext("2d"),e=0,i=0,o=[],d=function(){this.x=this.y=this.dx=this.dy=0,this.reset()};function a(){e=window.innerWidth,i=window.innerHeight,t.width=e,t.height=i,function(t){if(t!=o.length){o=[];for(var n=0;n<t;n++)o.push(new d)}}(e*i/1e4)}d.prototype.reset=function(){this.y=Math.random()*i,this.x=Math.random()*e,this.dx=1*Math.random()-.5,this.dy=.5*Math.random()+.5},a(),function t(){n.clearRect(0,0,e,i),n.fillStyle="rgba(255,255,255,.3)",o.forEach(function(t){t.y+=t.dy,t.x+=t.dx,t.y>i&&(t.y=0),t.x>e&&(t.reset(),t.y=0),n.beginPath(),n.arc(t.x,t.y,5,0,2*Math.PI,!1),n.fill()}),window.requestAnimationFrame(t)}(),window.addEventListener("resize",a)}var n;n=function(){t(document.getElementById("snowball"))},"loading"!=document.readyState?n():document.addEventListener("DOMContentLoaded",n)}();
+    //]]>
+    </script>
+</html>

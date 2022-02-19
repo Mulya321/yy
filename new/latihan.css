@@ -1,0 +1,67 @@
+body {
+    margin: auto;
+    font-size: 20px;
+    background-image: url(new/food.jpg);
+
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    background-color: aqua;
+    
+}
+ul ol {
+    text-decoration: none;
+    display: inline-block;
+    
+}
+a {
+    text-decoration: none;
+    font-size: 25px;
+}
+ul {
+    padding-right: 60px;
+}
+a:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+.header {
+    text-align: center;
+}
+.hero {
+    height: 300px;
+    background-image: url(new/smk.jpg);
+    background-position: -5px -140px ;
+    border-top: 9px solid;
+    border-bottom: 9px solid;
+}
+
+.content {
+    margin: 20px;
+}
+
+
+.ehe {
+    font-size: 20px;
+    color: black;
+}
+
+   
+.copyright {
+    background-color: black;
+}
+.footer {
+    background-color: black;
+    text-align: center;
+}
+p {
+    color: rgb(0, 0, 0);
+}
+.op {
+    color: aliceblue;
+}
+.pp {
+    padding-top: 20px;
+}
